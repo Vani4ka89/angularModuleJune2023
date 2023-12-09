@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: darkblue;
+}
+
+.container a {
+  text-decoration: none;
+  color: snow;
+}
+
+.container a[class = 'active'] {
+  color: yellow;
+}
